@@ -1,8 +1,14 @@
 # Sass Scaffold
 
-A scaffold or boilerplate Based on [sass-boilerplate](https://github.com/KittyGiraudel/sass-boilerplate/tree/master) by Kitty Giraudel
+A scaffold or boilerplate based on [sass-boilerplate](https://github.com/KittyGiraudel/sass-boilerplate/tree/master) by Kitty Giraudel
 
 Each folder of this project has its own `README.md` file to explain the purpose and add extra information.
+
+## Main file
+
+The main file (usually labelled `main.scss`) should be the only Sass file from the whole code base not to begin with an underscore. This file should not contain anything but `@import` and comments.
+
+Reference: [Sass Guidelines](https://sass-guidelin.es/) > [Architecture](https://sass-guidelin.es/#architecture) > [Main file](https://sass-guidelin.es/#main-file)
 
 ## Using the indented syntax
 
@@ -31,9 +37,3 @@ npm install -g sass
 ```bash
 sass stylesheets/main.scss dist/main.css
 ```
-
-## Main file
-
-The main file (usually labelled `main.scss`) should be the only Sass file from the whole code base not to begin with an underscore. This file should not contain anything but `@import` and comments.
-
-Reference: [Sass Guidelines](https://sass-guidelin.es/) > [Architecture](https://sass-guidelin.es/#architecture) > [Main file](https://sass-guidelin.es/#main-file)
